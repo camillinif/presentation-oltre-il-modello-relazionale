@@ -1,0 +1,24 @@
+{
+  "film": {
+    "_id": 115,
+    "title": "Indiana Jones",
+    "categoryId": "1",
+    "actors": [
+      {
+        "actorId": "1"
+      }
+    ]
+  },
+  "actors": [
+    {
+      "_id": 1,
+      "name": "Harrison Ford"
+    }
+  ],
+  "categories": [
+    {
+      "_id": 1,
+      "title": "Adventure"
+    }
+  ]
+}

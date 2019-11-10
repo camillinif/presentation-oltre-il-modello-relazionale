@@ -1,0 +1,6 @@
+docker exec -it namenode bash
+hadoop fs -mkdir -p input
+hdfs dfs -put ./input/* input
+hadoop jar count_word.jar org.apache.hadoop.examples.WordCount input output
+hdfs dfs -cat output/part-r-00000
+hadoop fs -get output/part-r-00000 input
